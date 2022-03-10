@@ -1,0 +1,83 @@
+/* pages/info.wxss */
+@import "../../icons/iconfont.wxss";
+
+.container{
+  background-color: #F3F5ED;
+  padding-top: 0;
+  color: #333;
+}
+.info{
+  background-color: #f7f9f7;
+  border-radius: 15px;
+  width: 680rpx;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; 
+}
+/* header */
+.info-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.title{
+  width: 150rpx;
+  padding-left: 50px;
+  font-weight: 800;
+  font-size: 200%;
+}
+.info-header-img{
+  width: 400rpx;
+}
+.info-header-img image{
+   max-width: 100%;
+   max-height: 350rpx;
+}
+/* detailed requirements */
+.info-details{
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 50px;
+}
+.icon-check{
+  background-color: #f7f9f7;
+  border-radius: 15px;
+  width: 500rpx;
+  height: 60rpx;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-top: 10px;
+  display: flex;
+  align-self: center; 
+}
+.icon-check::before{
+  font-size: 50rpx;
+  padding-left: 20rpx;
+  padding-top: 5rpx;
+}
+.icon-check text{
+  padding-left: 40rpx;
+  padding-top: 6rpx;
+}
+.explainer{
+  padding-top: 20px;
+  width: 500rpx; 
+  align-self: center; 
+}
+.explainer .asterisk{
+  color: #e6921b;
+  font-weight: bold;
+  font-size: 100%;
+}
+.explainer text{
+  font-size: 60%;
+}
+/*TODO: donation*/
+.donation{
+  
+}
+  
+ 
+  

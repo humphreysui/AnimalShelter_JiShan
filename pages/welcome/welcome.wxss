@@ -1,0 +1,28 @@
+/* pages/welcome.wxss */
+@import "../../icons/iconfont.wxss";
+
+.container{
+  color: #333;
+}
+.logo{
+   
+}
+.logo image{
+  width: 220px;
+}
+.moto{
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+
+}
+.icon-love{
+  padding-top: 4px;
+}
+.icon-love::before{
+  color: rgba(194, 15, 15, 0.986);
+  padding-left: 6px;
+  
+   
+   
+}

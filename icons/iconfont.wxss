@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3234829 */
+  src: url('//at.alicdn.com/t/font_3234829_mjqm0qk2j4.woff2?t=1646919113626') format('woff2'),
+       url('//at.alicdn.com/t/font_3234829_mjqm0qk2j4.woff?t=1646919113626') format('woff'),
+       url('//at.alicdn.com/t/font_3234829_mjqm0qk2j4.ttf?t=1646919113626') format('truetype'),
+       url('//at.alicdn.com/t/font_3234829_mjqm0qk2j4.svg?t=1646919113626#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-love:before {
+  content: "\eca1";
+}
+
+.icon-check:before {
+  content: "\e6b9";
+}
+
+.icon-about:before {
+  content: "\e61e";
+}
+
+.icon-pet:before {
+  content: "\e6af";
+}
+
+.icon-breed:before {
+  content: "\e62c";
+}
+
+.icon-cut:before {
+  content: "\e602";
+}
+
+.icon-vax:before {
+  content: "\eb4c";
+}
+
+.icon-weight:before {
+  content: "\e682";
+}
+
+.icon-age:before {
+  content: "\e8c5";
+}
+
+.icon-male:before {
+  content: "\e628";
+}
+
+.icon-female:before {
+  content: "\e629";
+}
+
+.icon-gender:before {
+  content: "\e632";
+}
+

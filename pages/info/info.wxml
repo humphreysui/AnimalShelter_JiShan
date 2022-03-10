@@ -1,0 +1,26 @@
+<!--pages/info.wxml-->
+<view class="container">
+  <!-- info about adoption -->
+  <view class="info">
+    <!-- page header with text and pic -->
+    <view class="info-header">
+      <view class="title"><text>领养须知</text></view>
+      <view class="info-header-img"><image src="../../images/bg1.png"></image></view>
+    </view>
+    <!-- detailed requirement -->
+    <view class="info-details" >
+      <view class="iconfont icon-check" wx:for="{{requirements}}" wx:key="i">
+        <text>{{item}}</text>
+      </view>
+      <view  class="explainer">
+        <span class="asterisk">*</span>
+        <text> 领养时留取押金，回访期满，“不死，不伤，不丢，不离，不弃”，押金退回！</text>
+      </view>
+    </view>
+  </view>
+  <!-- donation -->
+  <view class="donation">
+    <!-- #TODO: implement QR code or WeChatPay -->
+    <!-- <image src="../../images/qrcode-donation.jpg"></image> -->
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/welcome.wxml-->
+<!-- page onload content -->
+
+<view class="container">
+  <view class="logo">
+    <image src="/images/logo.jpg"></image>
+  </view>
+  <view class="moto">
+    <view><text>Made with </text></view> 
+    <view class="iconfont icon-love"></view>
+  </view>
+</view> 
+

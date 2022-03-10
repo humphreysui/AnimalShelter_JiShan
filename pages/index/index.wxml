@@ -1,0 +1,35 @@
+<view class="container">
+
+  <!-- small card -->
+  <view wx:for="{{list_sm}}" wx:key="i" class="card-sm"  >
+    <view class="photo-sm">
+      <image class="photo-sm-pic" src="{{item.picPath}}"></image>
+    </view>
+    <view class="info-sm">
+      <view class="iconfont icon-age"><text class="info-sm-text">年龄：{{item.age}} 岁</text></view>
+      <view class="iconfont icon-gender"><text class="info-sm-text">性别：{{item.gender}}</text></view>
+      <view class="iconfont icon-weight"><text class="info-sm-text">体重：{{item.weight}}公斤</text></view>
+    </view>
+  </view>
+
+  <!-- big card -->
+  <view wx:for="{{list_big}}" wx:key="i" class="card-big">
+    <view class="photo-big">
+      <image class="photo-big-pic" src="{{item.picPath}}"></image>
+    </view>
+    <view class="info-big">
+      <view class="info-essential">
+        <view class="iconfont icon-age"><text class="info-big-text">年龄：{{item.age}}岁</text></view>
+        <view class="iconfont icon-gender"><text class="info-big-text">性别：{{item.gender}}</text></view>
+      </view>
+      <view class="info-nonessential">
+        <view class="iconfont icon-cut" wx:if="{{item.cut == true}}"><text class="info-big-text" >绝育：已绝育</text></view>
+        <view class="iconfont icon-cut" wx:else><text class="info-big-text" >绝育：未绝育</text></view>
+        <view class="iconfont icon-vax" wx:if="{{item.vax == true}}"><text class="info-big-text" >疫苗：已接种</text></view>
+        <view class="iconfont icon-vax" wx:else><text class="info-big-text" >疫苗：未接种</text></view>
+        <view class="iconfont icon-breed"><text class="info-big-text">品种：{{item.breed}}</text></view>
+      </view>
+    </view>
+  </view>
+
+</view>
